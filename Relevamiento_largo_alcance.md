@@ -15,3 +15,5 @@
 | NORTE |            | ROSARIO     | 10 Geth          | 2        | BENAVIDEZ  | 10 Geth          | 2        | 70 - 33 - 97                           |                                          | 673                                         |                                              |
 
 ![Mapa Zona Norte](Mapa_Zona_Norte.png)
+
+![Tramo 2 40G](tramo2_40g.png)
