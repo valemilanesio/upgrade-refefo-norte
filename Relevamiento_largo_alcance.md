@@ -17,3 +17,5 @@
 ![Mapa Zona Norte](Mapa_Zona_Norte.png)
 
 ![Tramo 2 40G](Tramo2_40g.png)
+
+![Mapa Zona Norte Largo Alcance](Mapa_Zona_Norte_Largo_alcance.png)
