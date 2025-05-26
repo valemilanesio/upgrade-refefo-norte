@@ -1,0 +1,649 @@
+{
+  "elements": [
+    {
+      "uid": "trx_TUCUMAN",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -26.8083,
+          "longitude": -65.2176,
+          "city": "TUCUMAN",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_CORDOBA",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -31.4167,
+          "longitude": -64.1833,
+          "city": "CORDOBA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_SANTA_FE",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -31.6333,
+          "longitude": -60.7000,
+          "city": "SANTA FE",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_ROSARIO",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -32.9575,
+          "longitude": -60.6394,
+          "city": "ROSARIO",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_JUJUY",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -24.1946,
+          "longitude": -65.2971,
+          "city": "JUJUY",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_RESISTENCIA",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -27.4514,
+          "longitude": -58.9867,
+          "city": "RESISTENCIA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_POSADAS",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -27.3671,
+          "longitude": -55.8961,
+          "city": "POSADAS",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_MENDOZA",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -32.8908,
+          "longitude": -68.8272,
+          "city": "MENDOZA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_BENAVIDEZ",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -34.4100,
+          "longitude": -58.6756,
+          "city": "BENAVIDEZ",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_TUCUMAN",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -26.8083,
+          "longitude": -65.2176,
+          "city": "TUCUMAN",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_CORDOBA",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -31.4167,
+          "longitude": -64.1833,
+          "city": "CORDOBA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_SANTA_FE",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -31.6333,
+          "longitude": -60.7000,
+          "city": "SANTA FE",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_ROSARIO",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -32.9575,
+          "longitude": -60.6394,
+          "city": "ROSARIO",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_JUJUY",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -24.1946,
+          "longitude": -65.2971,
+          "city": "JUJUY",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_RESISTENCIA",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -27.4514,
+          "longitude": -58.9867,
+          "city": "RESISTENCIA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_POSADAS",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -27.3671,
+          "longitude": -55.8961,
+          "city": "POSADAS",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_MENDOZA",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -32.8908,
+          "longitude": -68.8272,
+          "city": "MENDOZA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_BENAVIDEZ",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": []
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -34.4100,
+          "longitude": -58.6756,
+          "city": "BENAVIDEZ",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_TUCUMAN_CORDOBA",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 731,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -29.1125,
+          "longitude": -64.70045,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_SANTA_FE_ROSARIO",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 205,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -32.2954,
+          "longitude": -60.6697,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_JUJUY_TUCUMAN",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 466,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -25.50145,
+          "longitude": -65.25735,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_RESISTENCIA_SANTA_FE",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 957,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -29.54235,
+          "longitude": -59.84335,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_POSADAS_SANTA_FE",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 1042,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -29.5002,
+          "longitude": -58.2984,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_TUCUMAN_SANTA_FE",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 1633,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -29.2208,
+          "longitude": -62.9588,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_JUJUY_RESISTENCIA",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 1226,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -25.8230,
+          "longitude": -62.1419,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_RESISTENCIA_POSADAS",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 366,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -27.40925,
+          "longitude": -57.4414,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_CORDOBA_ROSARIO",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 858,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -32.1871,
+          "longitude": -62.41135,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_MENDOZA_CORDOBA",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 858,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -32.15375,
+          "longitude": -66.50525,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_ROSARIO_BENAVIDEZ",
+      "type": "Fiber",
+      "type_variety": "NZDF",
+      "params": {
+        "length": 673,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -33.68375,
+          "longitude": -59.6575,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node": "trx_TUCUMAN",
+      "to_node": "roadm_TUCUMAN"
+    },
+    {
+      "from_node": "trx_CORDOBA",
+      "to_node": "roadm_CORDOBA"
+    },
+    {
+      "from_node": "trx_SANTA_FE",
+      "to_node": "roadm_SANTA_FE"
+    },
+    {
+      "from_node": "trx_ROSARIO",
+      "to_node": "roadm_ROSARIO"
+    },
+    {
+      "from_node": "trx_JUJUY",
+      "to_node": "roadm_JUJUY"
+    },
+    {
+      "from_node": "trx_RESISTENCIA",
+      "to_node": "roadm_RESISTENCIA"
+    },
+    {
+      "from_node": "trx_POSADAS",
+      "to_node": "roadm_POSADAS"
+    },
+    {
+      "from_node": "trx_MENDOZA",
+      "to_node": "roadm_MENDOZA"
+    },
+    {
+      "from_node": "trx_BENAVIDEZ",
+      "to_node": "roadm_BENAVIDEZ"
+    },
+    {
+      "from_node": "roadm_TUCUMAN",
+      "to_node": "fiber_TUCUMAN_CORDOBA"
+    },
+    {
+      "from_node": "fiber_TUCUMAN_CORDOBA",
+      "to_node": "roadm_CORDOBA"
+    },
+    {
+      "from_node": "roadm_SANTA_FE",
+      "to_node": "fiber_SANTA_FE_ROSARIO"
+    },
+    {
+      "from_node": "fiber_SANTA_FE_ROSARIO",
+      "to_node": "roadm_ROSARIO"
+    },
+    {
+      "from_node": "roadm_JUJUY",
+      "to_node": "fiber_JUJUY_TUCUMAN"
+    },
+    {
+      "from_node": "fiber_JUJUY_TUCUMAN",
+      "to_node": "roadm_TUCUMAN"
+    },
+    {
+      "from_node": "roadm_RESISTENCIA",
+      "to_node": "fiber_RESISTENCIA_SANTA_FE"
+    },
+    {
+      "from_node": "fiber_RESISTENCIA_SANTA_FE",
+      "to_node": "roadm_SANTA_FE"
+    },
+    {
+      "from_node": "roadm_POSADAS",
+      "to_node": "fiber_POSADAS_SANTA_FE"
+    },
+    {
+      "from_node": "fiber_POSADAS_SANTA_FE",
+      "to_node": "roadm_SANTA_FE"
+    },
+    {
+      "from_node": "roadm_TUCUMAN",
+      "to_node": "fiber_TUCUMAN_SANTA_FE"
+    },
+    {
+      "from_node": "fiber_TUCUMAN_SANTA_FE",
+      "to_node": "roadm_SANTA_FE"
+    },
+    {
+      "from_node": "roadm_JUJUY",
+      "to_node": "fiber_JUJUY_RESISTENCIA"
+    },
+    {
+      "from_node": "fiber_JUJUY_RESISTENCIA",
+      "to_node": "roadm_RESISTENCIA"
+    },
+    {
+      "from_node": "roadm_RESISTENCIA",
+      "to_node": "fiber_RESISTENCIA_POSADAS"
+    },
+    {
+      "from_node": "fiber_RESISTENCIA_POSADAS",
+      "to_node": "roadm_POSADAS"
+    },
+    {
+      "from_node": "roadm_CORDOBA",
+      "to_node": "fiber_CORDOBA_ROSARIO"
+    },
+    {
+      "from_node": "fiber_CORDOBA_ROSARIO",
+      "to_node": "roadm_ROSARIO"
+    },
+    {
+      "from_node": "roadm_MENDOZA",
+      "to_node": "fiber_MENDOZA_CORDOBA"
+    },
+    {
+      "from_node": "fiber_MENDOZA_CORDOBA",
+      "to_node": "roadm_CORDOBA"
+    },
+    {
+      "from_node": "roadm_ROSARIO",
+      "to_node": "fiber_ROSARIO_BENAVIDEZ"
+    },
+    {
+      "from_node": "fiber_ROSARIO_BENAVIDEZ",
+      "to_node": "roadm_BENAVIDEZ"
+    }
+  ]
+}

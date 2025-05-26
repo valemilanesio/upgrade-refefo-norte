@@ -1,0 +1,31 @@
+{
+  "services": [
+    {
+      "source": "JUJUY",
+      "destination": "BENAVIDEZ",
+      "bitrate": "100G",
+      "trx_type": "trn_100G",
+      "path-request": {
+        "path-type": "min-hop"
+      }
+    },
+    {
+      "source": "POSADAS",
+      "destination": "MENDOZA",
+      "bitrate": "100G",
+      "trx_type": "trn_100G",
+      "path-request": {
+        "path-type": "min-hop"
+      }
+    },
+    {
+      "source": "ROSARIO",
+      "destination": "RESISTENCIA",
+      "bitrate": "100G",
+      "trx_type": "trn_100G",
+      "path-request": {
+        "path-type": "min-hop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "elements": [
+    {
+      "uid": "trx_TUCUMAN",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -26.8083,
+          "longitude": -65.2176,
+          "city": "TUCUMAN",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "trx_CORDOBA",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "latitude": -31.4167,
+          "longitude": -64.1833,
+          "city": "CORDOBA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_TUCUMAN",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": ["dcp-r-9d-cs"],
+          "booster_variety_list": ["dcp-r-9d-cs"]
+        },
+        "per_degree_pch_out_db": {
+          "fiber_TUCUMAN_CORDOBA": -18.8
+        }
+      },
+      "metadata": {
+        "location": {
+          "latitude": -26.8083,
+          "longitude": -65.2176,
+          "city": "TUCUMAN",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "roadm_CORDOBA",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -18.8,
+        "restrictions": {
+          "preamp_variety_list": ["dcp-r-9d-cs"],
+          "booster_variety_list": ["dcp-r-9d-cs"]
+        },
+        "per_degree_pch_out_db": {}
+      },
+      "metadata": {
+        "location": {
+          "latitude": -31.4167,
+          "longitude": -64.1833,
+          "city": "CORDOBA",
+          "region": "NORTE"
+        }
+      }
+    },
+    {
+      "uid": "fiber_TUCUMAN_CORDOBA",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 731,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 3.3,
+        "con_in": 0,
+        "con_out": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": -29.1125,
+          "longitude": -64.70045,
+          "city": null,
+          "region": "NORTE"
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node": "trx_TUCUMAN",
+      "to_node": "roadm_TUCUMAN"
+    },
+    {
+      "from_node": "roadm_TUCUMAN",
+      "to_node": "fiber_TUCUMAN_CORDOBA"
+    },
+    {
+      "from_node": "fiber_TUCUMAN_CORDOBA",
+      "to_node": "roadm_CORDOBA"
+    },
+    {
+      "from_node": "roadm_CORDOBA",
+      "to_node": "trx_CORDOBA"
+    }
+  ]
+}

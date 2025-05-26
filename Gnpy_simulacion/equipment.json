@@ -1,0 +1,76 @@
+{
+  "Edfa": [
+    {
+      "type_variety": "simple_edfa",
+      "type_def": "variable_gain",
+      "gain_flatmax": 20,
+      "gain_min": 15,
+      "p_max": 21,
+      "nf_min": 5,
+      "nf_max": 6,
+      "out_voa_auto": false,
+      "allowed_for_design": true
+    }
+  ],
+  "Fiber": [
+    {
+      "type_variety": "SMF",
+      "dispersion": 1.67e-05,
+      "effective_area": 83e-12,
+      "attenuation": 0.22,
+      "gamma": 1.3,
+      "length": 80.0,
+      "loss_coefficient": 0.22,
+      "pmd_coef": 1.265e-15,
+      "psd": -140
+    }
+  ],
+  "Roadm": [
+    {
+      "type_variety": "default",
+      "target_pch_out_db": -20,
+      "add_drop_osnr": 38,
+      "pmd": 0,
+      "pdl": 0,
+      "restrictions": {
+        "preamp_variety_list": [],
+        "booster_variety_list": []
+      }
+    }
+  ],
+  "Transceiver": [
+    {
+      "type_variety": "trn_100G",
+      "frequency": {
+        "min": 191.35e12,
+        "max": 196.1e12
+      },
+      "mode": [
+        {
+          "format": "dp_qpsk",
+          "baud_rate": 32e9,
+          "OSNR": 15,
+          "bit_rate": 100e9,
+          "roll_off": 0.15,
+          "tx_osnr": 40,
+          "min_spacing": 37.5e9,
+          "cost": 1
+        }
+      ]
+    }
+  ],
+  "SI": [
+    {
+      "f_min": 191.3e12,
+      "f_max": 195.1e12,
+      "baud_rate": 32e9,
+      "spacing": 50e9,
+      "power_dbm": 0,
+      "power_range_db": [0, 0, 1],
+      "tx_power_dbm": 0,
+      "roll_off": 0.15,
+      "tx_osnr": 40,
+      "sys_margins": 2
+    }
+  ]
+}
